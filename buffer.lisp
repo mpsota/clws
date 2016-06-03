@@ -317,7 +317,7 @@
                         (write-to-client-close client))
                       (lg "got close frame from peer: ~s / ~s~%"
                           (status-code e) (status-message e))
-                      (setf (client-connection-state client) :cloed)
+                      (setf (client-connection-state client) :closed)
                       ;; probably should send code/message to resource handlers?
                       (client-enqueue-read client (list client :eof))
                       (client-disconnect client :read t

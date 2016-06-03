@@ -13,6 +13,7 @@
    #:client-resource-name
    #:client-query-string
    #:client-connection-headers
+   #:client-connection-state
    #:client-websocket-version
 
    #:client-connection-rejected
@@ -44,6 +45,5 @@
    #:origin-exact
 
 #:*log-level*))
-   
-(in-package :clws)
 
+(in-package :clws)
