@@ -8,6 +8,7 @@
    #:write-to-clients-text
    #:write-to-clients-binary
    #:write-to-client-close
+   #:write-closed
    #:client-host
    #:client-port
    #:client-resource-name
