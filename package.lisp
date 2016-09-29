@@ -15,6 +15,7 @@
    #:client-connection-headers
    #:client-connection-state
    #:client-websocket-version
+   #:client-handler-data
 
    #:client-connection-rejected
    ;; resource
